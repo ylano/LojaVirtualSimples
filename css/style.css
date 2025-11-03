@@ -1,0 +1,60 @@
+/* ===================================
+   🌿 Fonte Local - (adicione os .ttf na pasta assets/fonts)
+=================================== */
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../assets/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../assets/fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5ebdc;
+  color: #3a1f04;
+}
+
+.title{
+  font-family: 'Playfair Display', serif;
+  color: #2f2418;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #3a1f04;
+}
+
+.texto{
+  font-family: 'Montserrat', sans-serif;
+  color: #2f2418;
+}
+
+.button,
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  color: #f9f3e7;
+  width: 180px;
+  height: 40px;
+  border-radius: 16px;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #b5842f; /* Dourado mais escuro no hover */
+}
